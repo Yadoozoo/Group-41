@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Forty one</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Fortyone<br>one</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#Team profile" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team profile</a>
+    <a href="#Jobs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Jobs</a>
+    <a href="#Tools" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tools</a>
+    <a href="#Industry Data" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Industry Data</a>
+    <a href="#IT Work" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Work</a>
+    <a href="#IT Technologys" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Technologys</a>
+    <a href="#Project Idea" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project Idea</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Health Diagnosis App</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h3 class="w3-jumbo"><b>FortyOne</b></h3>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Team profile.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+     <p><B>About James</B></p>
+     <p><B>About Jacob</B></p>
+     <p><B>About Aaron</B></p>
+     <p><B>About Anish</B></p>
+
+
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="Jobs" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Jobs.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <!-- tools -->
+  <div class="w3-container" id="Tools" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Tools.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  <div class="w3-container" id="Industry Data" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Industry Data.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  <div class="w3-container" id="IT Work" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>IT Work.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  <div class="w3-container" id="IT Technologys" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>IT Technologys.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><B>IT technologies: Clouds, services, and servers.</B></p>
+    <B>What does it do?</B>
+    <p>Cloud computing is the term used to describe the enabling of various computing resources to be conveniently utilised over the internet. These computing resources involve the use of services, servers, storage, networks and applications that can be rapidly accessed and allow the user to scale the amount of computing resources to their current and future needs.</p>
+
+    <p>Cloud computing utilises virtualisation which is the process of allowing multiple users to share a single computer (the server) – which fundamentally consists of a processor, memory, storage and network capacity -- at the same time without affecting each other; this contrasts to a single person using a single piece of hardware such as a laptop. Virtualisation is possible through software, called a hypervisor, which is loaded onto the server and allows multiple instances of an operating system to be run at the same time (Arabnia, Deligiannidis & Tinetti 2019, pg. 3). The importance of sharing a single piece of hardware is that often the amount of computing resources, such as processing power and storage, required are less than what the user needs which results in inefficient use of hardware and power consumption (Ruparelia, NB 2016, pg. 1).</p>
+
+    <img src="virtualisation.png" alt="profile" width="400" height="250">
+
+    <p>Although it is possible to setup a private network that utilises virtualisation to reduce power and hardware inefficiencies, there are still many remaining issues such as managing hardware, security, and data. Providers of cloud computing, such as Amazon Web Services (AWS), offer to manage these issues and provide benefits which include applications and rapid access to these computing resources depending on user needs (Amazon Web Services 2021, Benefits of cloud computing). This allows the user to have limited upfront costs of purchasing hardware, hiring staff to manage it, whilst also allowing for flexibility in the amount of resources needed in the future.
+    </p>
+
+    <p>Fox & Hao (2017, p. 477-478) describes the three main methods that cloud computing services offer as Infrastructure as a Service (IaaS), Platform as a service (PaaS), and Software as a Service (SaaS). These services are often called a stack because they start from a more basic service (IaaS) and increase to a more complex service (SaaS). IaaS is the most basic and offers hardware infrastructure which provides computing resources such as processing power, memory, storage and network capability. When choosing PaaS, in addition to what IaaS offers, the user will also be provided with necessary infrastructure such as operating systems and databases. Finally, in addition to what both IaaS and PaaS provide, SaaS will provide the entire package with the addition of software and application hosting. A popular example of SaaS use is Google workspace, Dropbox, and salesforce.</p>
+
+     <img src="cloud Services.png" alt="profile" width="400" height="250">
+
+  <p>Fox & Hao (2017, p. 477-478) describes the three main methods that cloud computing services offer as Infrastructure as a Service (IaaS), Platform as a service (PaaS), and Software as a Service (SaaS). These services are often called a stack because they start from a more basic service (IaaS) and increase to a more complex service (SaaS). IaaS is the most basic and offers hardware infrastructure which provides computing resources such as processing power, memory, storage and network capability. When choosing PaaS, in addition to what IaaS offers, the user will also be provided with necessary infrastructure such as operating systems and databases. Finally, in addition to what both IaaS and PaaS provide, SaaS will provide the entire package with the addition of software and application hosting. A popular example of SaaS use is Google workspace, Dropbox, and salesforce.</p>
+
+  <B><p>What is the state of the art of this new technology? What can be done now?</B></p>
+
+  <p>Current cloud technology allows the user to purchase only the computing resources needed. This scalability is a major feature of the cloud and improvements through machine learning also allow the services to predict and change the computing resources required by the user. An example of this service is Amazon EC2 which recently released an auto scaling warm pools feature that allows applications to start faster and stop processes sooner allows you to increase and decrease the resources within only a few minutes (Amazon Web Services 2021, Amazon EC2 Auto Scaling introduces Warm Pools to accelerate scale out while saving money).</p>
+
+  <p><B>What is likely to be able to do be done soon (say in the next 3 years)?</B></p>
+
+  <p>One of the expanding technologies relating to cloud computing is fog computing which is expected to increase in usage over the coming years. This technology deploys computing resources (edge devices), such as mobile base stations, closer to the data sources to improve response times and network latency (Buyya et al. 2019, p. 3). This responsiveness allows users to operate and offload their high bandwidth applications and computational tasks, such as virtual reality and security, with lower performance issues than connecting directly to the main cloud server.</p>
+
+  <p><B>What technological or other developments make this possible?</B></p>
+
+  <p>With edge devices offering reduces latency and response times, it is desirable to cater to increasing bandwidth usage by users. Users on mobile devices will be able to take advantage of these cloud advancements with the assistance of wireless technologies such as 5G which may leverage a thousand-fold improvement over the previous generation (Ren et al. 2020, p.2).</p>
+
+  <p><B>What is the likely impact?</B></p>
+
+  <p>The use of edge devices for their improvements to responsiveness and bandwidth efficiencies is likely to impact everyone who uses the cloud. This includes the individuals who use their phones for private uses, such as video games, to larger organisations that utilise a great amount of bandwidth for surveillance recordings. </p>
+
+  <p>Individuals concerned with performance can benefit greatly from edge devices used by the cloud. Buyya et al. (2019, p. 11-12) describes the utilisation of edge device servers to take the burden of heavy processing whilst providing improved latency and response times. Interacting with edge devices through the fog computing concept, users of devices such as smartphones and health tracking watches can utilise the energy-saving features of the cloud whilst retaining their responsiveness. </p>
+
+  <p>Larger organisations often use large amounts of bandwidth, but also require more responsiveness than the main cloud server can provide. (Ren et al. (2020, p.2) describes the bandwidth usage concern for an airport that deals with thousands of surveillance cameras and the accumulating data that results from their recordings. With the use of edge devices such as dedicated smaller servers located near the data source (the airport) it is possible for these edge devices to filter through the video recordings before uploading them on to the main cloud servers. This filtering process allows for the reduction of otherwise large files to be more efficiency transmitted to the main cloud server. </p>
+
+  <p><B>Will this create, replace or make redundant any current jobs or technologies?</B></p>
+
+  <p>With the growth of the cloud and it being used as a substitute for storage and computation of localised devices, it will reduce the pressure of technology manufacturers of devices, such as smartphones and laptops, to expand the capabilities of them. Although advancements in these devices are desirable, especially the power consumption of smartphones, the increase in offloading of these demands onto the cloud may result the redundancy of large local storage capacity or other previously desired features.</p>
+
+  <p><B>How will this affect you?</B></p>
+
+  <p>With the cloud being present in so many parts of daily life it is difficult not to be affected. Daily I use products of the cloud such as online banking, Emails, media streaming services, and gaming. With the continuous expansion of edge computing servers, it will allow me to enjoy these services with less response time issues. This is especially important for online gaming for which response times and latency impact the activity significantly.</p>
+
+  <p>As someone who frequently uses devices in power saving modes, the increase in low latency cloud services through edge devices will allow me to use my smartphone with less worries of battery life. With the offloading of computing processes to the cloud I will be able to worry less about my phone’s battery draining and being stuck in important situations that require its use.</p>
+
+  <p>In addition to less power consumption worries, I no longer need to be as concerned with my smartphone having limited storage capacity. Previously if more storage was required, I would often have to purchase additional storage, but now cloud services often offer free storage.</p>
+
+  <p><B>What will be different for you?</B></p>
+
+  <p>Although as a user I most likely will not notice a significant decrease using cloud and edge computing, it is certainly easy to appreciate reduced annoyance from high response times of older cloud technologies. As I continue down the path of utilising more technology as a software developer, I am sure the daily benefits of cloud computing will become more appealing.</p>
+
+  <p><B>How might this affect members of your family or your friends?</B></p>
+
+  <p>Much of my family and friends have already enjoyed the benefits of cloud computing through its backup capabilities. Recently my family lost a lot of localised data relating to videos and pictures but were fortunate enough to have uploaded copies of this information to the cloud. Without the use of the cloud, they would not have been able to restore the data and nostalgic pictures would be lost forever.</p>
+
+  <img src="Image 3.png" alt="profile" width="400" height="250">
+</div>
+
+
+
+<h2>Autonomous vehicles</h2>
+<p><B></B></p>
+<p><B>What does it do?</B></p>
+
+<p>Autonomous vehicles are an emerging technology that completely automates the driving element of the vehicle using complex AI technology. Autonomous vehicles are capable of sensing the environment around them and navigating their way through said environments safely with little to no human influence.</p>
+
+
+
+<p><B>Technology</B></p>
+
+<p>Autonomous vehicles use a combination of old and new technologies such as Radar, Sonar, Lidar, GPS, IMU (inertial measurements units) and odometry to operate a fully driverless vehicle. All these technologies help to identify appropriate navigation paths alongside identify relevant road signage and obstacles such as civilians and structures.
+Today we are seeing a definite future with autonomous vehicles as more and more companies are funding more and more research to develop driverless vehicles such as Tesla, Uber and Navya. Which have all put out semi-autonomous vehicles. Tesla has said it will offer a “subscription-based full self-driving” to vehicle owners in 2021. The technology now to develop driverless vehicle is rapidly advancing into a reality, so far Tesla has created an Autonomous vehicle which was under the name “Tesla Autopilot” in 2015. Tesla rolled out a version 7 update in the US which concluded Autopilot capability. Later in 2016 version 7.1 emerged adding a new feature that allowed to summon cars or self-park at parking locations. This feature is still being used today but required the full attention of the driver as the Tesla Autopilot will occasionally fail to detect lane markings and disengage itself. In regards to the Tesla Autopilot, it is almost certain that we will see fully automated vehicles in the distant future. With companies such as Tesla reducing human activity with certain driving elements is certainly a step closer to achieving a fully automated vehicle.
+</p>
+
+<p>However, there have been reports regarding Tesla’s reliability in terms of the “Autopilot feature” as on the 20th January 2016 the first fatal crash occurred whilst under the “Autopilot feature” where the driver wasn’t paying attention to their surroundings and this is one of those incidents where the autopilot failed to identify the road markings and crashed the vehicle. There have been multiple occasions where the Tesla vehicle has crashed and even killing a passenger. The technology used in these vehicles needs further refinement over the years to truly be autonomous without any human support. </p>
+
+<p>Today technological advancements in autonomous vehicles today have been mostly used consistently with long-distance truck drivers which have a feature called “cruise control” which maintains the speed and has sensors to indicate the driver if you are in danger of a collision using sensors. These procedures half automate the long-distance control over the vehicle. If technology keeps advancing at this rate by 2030 one in every 10 cars will be fully automated globally.</p>
+
+
+
+<p><B>What is the likely impact?</B></p>
+
+<p>This technology will have a tremendous impact on society as we know it. Driving will be completely automated with the driver having little to no interaction with the controls. The impacts of this development are technological, economic and societal. Impacts include</p>
+
+<p>•The decline in sales of transportation costs due to competition</p>
+<p>•Mobility for the elderly and disabled will increase </p>
+<p>•Fewer cars will travel more miles because of the increase in-vehicle use. </p>
+<p>•Fewer vehicles will have to be produced yearly </p>
+<p>•	The oil industry will experience a severe decrease in sales</p>
+<p>•Air pollution and greenhouse gasses will virtually be eliminated from vehicles</p>
+
+
+<p><B>What will change</B></p>
+
+<p>Changes will be made to the society, economy and technology such as </p>
+
+
+<p><B>What will change </B></p>
+<p>Changes will be made to the society, economy and technology such as  </p>
+
+<p><B>Societal </B></p>
+<p>*The way people drive</p>
+<p>*Fewer people will own a car as it will become a service </p>
+
+
+<p><B>Economical</B></p>
+<p>Saving costs</p>
+<p>Reduced crashes</p>
+<p>Fuel efficiency </p>
+<p>The creation of new jobs. </p>
+
+
+<p><B>Environmental</B></p>
+<p>Eliminated fossil fuels emitted from vehicles</p>
+<p>Eliminated the emission of greenhouse gasses from vehicles </p>
+<p>Reduction of global warming </p>
+
+
+<p><B>Technology  </B></p>
+<p>Advancements in technology. </p>
+
+
+<p><B>Who will be affected </B></p>
+<p>There will be a margin of people who will be affected by the roll-out of automated vehicles, such as taxi companies e.g Uber, Didi, infinite cab, taxicabs, 13 cabs. Taxi drivers will be made redundant cutting the job entirely. A lot of workers will have lost their jobs in the transportation industry due to vehicles being automated. Trains have already started and are on the typing point of being fully automated. For example, the Sydney metro in Australia is one of the first fully automated vehicles. The Sydney Metro is completely automated with no human interaction. And has proven to be a success with the daily transportation between each stop. This has eradicated the workforce for the metro line as they do not require staff on board which has reduced jobs in the transportation industry</p>
+
+
+<p><B>What jobs are automated vehicles going to create?</B></p>
+<p>With automated vehicles taking numerous jobs from the transportation industry. Autonomous vehicles have created more jobs such as…</p>
+
+<p>•	Customer success field representative </p>
+<p>•	Perception software engineer</p>
+<p>•	Strategic account manager  </p>
+<p>•	Autonomous navigation software</p>
+<p>•	Feild service technition</p>
+<p>•	Industrial engineer </p>
+<p>•	Field autonomy manager </p>
+
+
+<p>With autonomous vehicles taking a huge number of supervisory roles in the transportation industry. It will create a number of new ones and create a demand for existing jobs such as “engineers” this will greatly help the economy with the job loss. </p>
+
+<p>The technology used in vehicles today will not be lost but merely transformed and elevated to a higher standard. With the introduction of autonomous vehicles comes more software being placed into the vehicles. And where the next generation vehicles we are seeing a high rise in electric cars instead of the diesel/petrol cars. This is extremely environmentally friendly and eradicates greenhouse gasses and other pollutants, which will greatly help our environment. Furthermore, several governments around the world have been pleased with this new idea and have eradicated carbon emission in various cities e.g “London city” which is helping the environment. Technologies such as the “combustion engine” will soon become obsolete as the “induction motor” will replace it proving to be less complicated, heavy and more efficient than the standard” combustion engine”.</p>
+
+
+<p><B>this affect you?</B></p>
+<p>This will be a drastic change for me as having control over your driving was a natural thing but if technology reaches the point of autonomous vehicles it would definitely be strange being in the driver’s seat but not being able to drive. The trains, trucks and other vehicles wouldn’t personally affect me too much as it rarely concerns me in my way of life but it would definitely take time for me and my family to get used to not being behind the wheel.</p>
+
+
+
+<!-- project idea stuff -->
+
+<div class="w3-container" id="Project Idea" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Project Idea: Health diagnosis application.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><B>Overview:</B></p>
+
+    <p>This health application will perform a broad range of services that are usually separated into
+different applications. These services will involve health advice, health tracking, and discussion
+forums, which will provide benefits to the user and consulted medical professionals. Health advice
+will offer preventative and reactive medical advice which enables the user to improve health whilst
+preventing and treating illnesses. To provide the high-quality advice, artificial intelligence and cloud
+computing services will be used to store and analyse medical data which advises based on the latest
+medical standards. Additionally, forums will be used to discuss health, fitness, and general topics
+which will provide a social and engaging atmosphere. The application is intended as a tool to be used
+in conjunction with the appropriate healthcare professionals should be consulted about the
+information provided by the application.
+</p>
+
+
+<p><B>Motivation:</B></p>
+
+<p>Health is a foundation for happiness and productivity, as well as a major economic concern, it shows a strong reason for developing tools that assist with the promotion of individual health. The health industryis growing every year, and with the increased growth and availability of information, it is becoming more difficult to make an optimal choice to improve and manage our health. This lack of certainty and increased complexity creates a need for the simplification and streamlining of medical information to the individual. </p>
+
+<p>To alleviate the concernswithchoosing from many health options, technologies such ascloudcomputing, artificial intelligence, and health tracking devices are allowing for improvements in the provision of health-relatedservices. Currently there are applications which provide symptom checking services by utilising artificial intelligence, however the scope of these could be expanded. Expanding the scopehealth applicationsto advisebasedon medical history and monitoredhealth data, in addition to symptoms,will provide more accurate healthadviceresulting inbetter health outcomes.</p>
+
+<p><B>Description:</B></p>
+<p>The proposed health application has alarge scope of servicesthatprovidesthe user with more tailored health advice than previoushealthapplicationiterationswhilst also encouraging social interactthrough onlineforums.This will allow the user to make more informed decisions about preventative health measures such as exercise, medication, and lifestyle; or treatments related to their diseases and how their diseases, medication and current healthdatainteracts.Theuser willbenefit from this advicewhich should result in a better quality of lifeand less time spent waiting onmedicalprofessionals.This tailoredadviseis achievedbyusingboth medical history and monitoringcurrent health data throughuserdevices,whilst utilisingboth cloud servers and artificial intelligence technology.</p>
+
+<p>By using cloud technology, it makes it possible for the user to always stay connected to the cloud and have their data accessible from anywhere. Staying connected to the cloud is important for many
+devices as it prevents the loss of data associated with storing information locally. In addition to providing storage benefits, it will allow for the cloud computing services to manage computationally intensive tasks relating to artificial intelligencethat will be needed to analysethe dataand offer advice. Thecloud will be used to storeprevioushealthdata,such as medical records,and current monitoredhealth data. Types of monitoreddata can include heart rate,steps walked each day,temperature, respiratory rate,ingested smart pills,and detection of falls. This monitored datawillbeprocessed by artificial intelligence.</p>
+
+<p>Usingartificial intelligence, the application willsort through vastamounts of medical information, analyse it,and offer advice that is specific to the individual’s situation.Artificial intelligence has the benefit of being able to learn from this data and improve upon future advice.With the increasing data collection fromusers, the advice will improve over time.Previoushealth diagnosisapplications utilising artificial intelligence would offer advice based on describedsymptoms–such as fever, insomniaor pain --which would potentially provide diagnoses not specific to the user.The proposed applicationwill provide a more specific diagnosis by using the user’smedical historyand current monitoredhealth datain addition to the described symptoms.</p>
+
+
+<p>Cloud services and artificial intelligence providing the foundation for the application, but it isimportant toassist the users in achieving an understanding of ideal health.The application will allow users to create a profile and input data relating to their physical health. This data will be compared to ideal health data in categories such asweight, blood pressure, heart rate, diet, and nutrition in blood test results. The data provided could cause the application to give warnings about any health issues that may arise from the user’s current health data, such as their weight contributing to the likelihood of diabetes, or their blood pressure being higher or lower than normal. </p>
+
+<p>This data can also provide additional specificity in relation to any other health conditions that the user might be suffering from. For example, if the user inputs the data of being overweight and having diabetes, the application will provide a message detailing the health interaction between the user’s weight and how it may affect diabetes. In addition to the information provided about the interaction it will also give preventative treatments.</p>
+
+<p>Although diabetes is an example that is usually a slow progression,there are uses of this application that assist with more immediate concerns such as an elderly person falling.The health application would work alongside third-partydevices to alert the appropriate people of accidents.An example of a third-partydevice is a belt worn by the elderly that assists with falls. To protect the user, this belt has a range of features. The belt will protectthe user by inflating if they fall,alertingthe caregiver,andrecording metrics on their balance and proprioception.In addition to the main functions of the belt, this health application would notify the user’s designated health professionals of the incident. Also, thedata from the belt would be usedto provide a morecomprehensive health record for the user. And in this case, the metrics about balance will certainly providemore accurate health recommendations for the future.This data relating to balance could be usedto diagnoseproprioceptive related illnesses suchas Meniere’s disease.</p>
+
+
+<p>Another example of this applications interactionwith third-party devices is with the use of Smart pills. Smart pills are a drug that contains sensers in it that activate when the ingested pill comes into contact with stomach fluids. This Smart pill is commonly used to record compliance for medication. Although this example is another third-party device, the proposed health application would record the compliance rates as another form of data. This data could be used in the context of future diagnoses relating tosymptoms such asforgetfulness ifthe user has a low compliance rate for medication.If the compliance issues arerelated to forgetfulness, then the data could possibly contribute to the diagnoses of Alzheimer’s.</p>
+
+<p>By using the large range of health data collection methods, the application will providepreventative treatmentadvicewhich can slow the progression of a disease and in some cases prevent it from occurring. Due to the sedentary lifestyle of modern society, lack of physical activity plays a major role in disease. Although there are many preventative treatments that will be provided by the application to the user which are unrelated to fitness, the role of fitness and daily activity are heavily promoted by the application. Daily goals of physical exercise will be monitoredand compared tothe user’s weight, blood pressure, and other data. To add incentive to complete the daily goals there will be a social element of comparing physical exercise for the day to other users. This can be in the form of calories consumed or steps travelledwhich could be monitored by third party devices such as Smart watches.</p>
+
+
+<p>Not all health conditions are preventable, and some interfere with preventative treatments. It is also the aim of the application to offer advicefor the user to enable them to manage their health in a non-fitness related capacity. The application will use the entirety of its stored health data from methods details above to provide treatment advicewhile managing additional considerations such as medicine contraindications.An examplecontraindication is a harmful combination of medications that will cause the application to display warning messages to alert the user tothepotential harm. Treatments can be complex and worrying, and even sometimes palliative,even with the assistance of this application, so the application encourages users to discuss the content with others through a discussion forum.</p>
+<p>The discussion forum is of great benefit to the application’s community and encourages further learning, sharing of health concerns, and participation. It will promote an atmosphere of wellness and allow likeminded individuals to connect and talk about their health concerns. It will have dedicated and general forums to discuss all issues relating to health and links will be provided to the appropriate forum under each of the user’s health conditions. </p>
+
+
+
+<p><B>Tools and technologies:</B></p>
+<p>The use of cloud computing technology will be utilised through a provider such as Amazon Web Services. The cloud services will most likely use the more comprehensive service of Software as aService (SaaS) which provides the hardware infrastructure, operating systems, and software needed. This will result in more flexibility for the early stages of the applications development. In addition,artificial intelligencesoftware will need to be developed for theneeds of analysing, diagnosing, and offering adviceto the user in relation to medical data.Due to the compute resource intensive nature
+ofartificial intelligence, the cloud will be utilisedto offload computing resource constraints of local devices during development. For the current intended iteration,the program will be written entirely in Java, although further consideration is needed to accommodate the use of artificial intelligence.</p>
+
+<p>The project will require a workspace for the employees to create the application. This involves the purchasing of all office and developer related equipment such as the computers, laptops and office supplies for a largegroup of software developers required todevelop the application. </p>
+
+  <p><B>Skills required:</B></p>
+<p>With the use of cloud computing, and artificial intelligence, it will be necessary to employ highly qualified software developers specialising in cloud and artificial intelligence. In addition to these specialisedsoftwaredevelopers, a large force of software developers will be needed to develop all parts of the application including facets such as the user interface and the forums required for users to interact with each other. An additional helpful skill would be for the developers to have experience within the healthcare industry or familiarity within it. To add to this, it is expected that regular consultations with medical professions will occur to ensure the validity of the application’s health advice.</p>
+
+<p><B>Outcome:</B></p>
+<p>With the recording of monitored health devicedatawhich provide the latest user health data, and the access to previous data such as health records, the application is expected to provide a more comprehensive view of the user’s health needs and advise accordingly. This comprehensive approach combined with the continued integration and collecting of information from third party devices will result in more accurate diagnoses than previous technologies.The capabilities of this applicationare expected to exponentially increase with future developments incomputing resource capabilities, and the continued refinement of the application’sartificial intelligence. Through this application’sdiagnosing ability there will be a reduced demand on the inundated health care system in addition to more accurate diagnoses for users and health care professionals.</p>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
